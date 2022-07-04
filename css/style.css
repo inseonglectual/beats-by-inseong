@@ -26,6 +26,7 @@ body {
 }*/
 
 body {
+    touch-action: manipulation;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
     background-color: white;
