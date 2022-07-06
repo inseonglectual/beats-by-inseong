@@ -236,7 +236,7 @@ canvas {
 @media (orientation: landscape) {
         canvas {
             width: auto;
-            height: calc(100vh - env(safe-area-inset-top, 0px));
+            height: 80vh;
             /*height: -webkit-fill-available;*/
         }
 /*        div {
