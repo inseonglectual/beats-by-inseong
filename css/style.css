@@ -25,6 +25,10 @@ body {
   list-style: none;
 }*/
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
     touch-action: manipulation;
     width: -webkit-fill-available;
@@ -45,8 +49,8 @@ body {
 
 @media (orientation: landscape) {
         canvas {
-            width: auto;
-            height: 100vh;
+            width: -webkit-fill-available;
+            height: -webkit-fill-available;
         }
         img {
             width: auto;
