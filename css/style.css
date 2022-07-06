@@ -46,27 +46,12 @@ body {
     margin: 0;
     position:absolute;
 }
-/*
-@media (orientation: landscape) {
-        canvas {
-            width: -webkit-fill-available;
-            height: -webkit-fill-available;
-        }
-        img {
-            width: auto;
-            height: 40vh;
-        }
-/*        div {
-            width: auto;
-            height: 100vh;
-        }*/
 
-
-    @media (orientation: portrait) {
-        canvas {
-            width: 98vw;
-            height: auto;
-        }
+@media (orientation: portrait) {
+    canvas {
+        width: 98vw;
+        height: auto;
+    }
 }
 
 header {
