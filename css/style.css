@@ -46,7 +46,7 @@ body {
     margin: 0;
     position:absolute;
 }
-
+/*
 @media (orientation: landscape) {
         canvas {
             width: -webkit-fill-available;
@@ -60,7 +60,7 @@ body {
             width: auto;
             height: 100vh;
         }*/
-    }
+
 
     @media (orientation: portrait) {
         canvas {
@@ -236,7 +236,8 @@ canvas {
 @media (orientation: landscape) {
         canvas {
             width: auto;
-            height: 100vh;
+            height: calc(100vh - env(safe-area-inset-top, 0px));
+            /*height: -webkit-fill-available;*/
         }
 /*        div {
             top:20vh;
