@@ -45,6 +45,7 @@ body {
     padding: 0;
     margin: 0;
     position:absolute;
+    background-image: url('../gifs/background.png');;
 }
 
 @media (orientation: portrait) {
@@ -83,35 +84,8 @@ header ul li:hover {
   text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
 }
 
-.modal {
-/*  position: absolute;
-  top: 3px;
-  left: 3px;*/
-  border-radius: 10px;
-/*  width: 800px;
-  height: 450px;*/
-  background-color: rgba(255, 255, 255, 0.9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-    /* center canvas */
-  margin: 0;
-  padding:0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.modal h1 {
-  text-align: center;
-  font-size: 40px;
-  font-family: fantasy;
-}
-
-./*game {
+/*game {
   position: relative;
   width: 800px;
   height: 450px;
@@ -215,8 +189,8 @@ canvas {
   background-image: url('../gifs/SongSelection.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: rgba(255, 255, 255, 0.15);
-  background-blend-mode: color;
+/*  background-color: rgba(255, 255, 255, 0.15);
+  background-blend-mode: color;*/
 }
 
 @media (orientation: landscape) {
@@ -224,6 +198,10 @@ canvas {
             width: auto;
             height: 80vh;
             /*height: -webkit-fill-available;*/
+        }
+        img {
+            width: auto;
+            height: 15vh;
         }
 /*        div {
             top:20vh;
@@ -266,4 +244,9 @@ canvas {
 
 #volume-off {
   padding: 0 10px 0 0;
+}
+
+.gif {
+  position: relative;
+  display: none;
 }
