@@ -53,6 +53,10 @@ body {
         width: 98vw;
         height: auto;
     }
+    img {
+            width: 8vw;
+            height: auto;
+    }
 
 }
 
