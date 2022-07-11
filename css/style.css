@@ -45,7 +45,7 @@ body {
     padding: 0;
     margin: 0;
     position:absolute;
-    background-image: url('../gifs/background.png');;
+    background-image: url('../gifs/background.png');
 }
 
 @media (orientation: portrait) {
@@ -53,6 +53,7 @@ body {
         width: 98vw;
         height: auto;
     }
+
 }
 
 header {
@@ -181,10 +182,6 @@ canvas {
     margin: 0;
     padding:0;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 
   background-image: url('../gifs/SongSelection.png');
   background-repeat: no-repeat;
@@ -208,6 +205,19 @@ canvas {
             left:35vw;
         }*/
     }
+
+#startscreen {
+  bottom: 0px;
+  width: 100%;
+}
+
+#canvas {
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
 
 .game .hide {
   display: none;
